@@ -25,7 +25,7 @@ main{
 }
 
 
-.wrapper {
+.divisao {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -179,7 +179,7 @@ main{
 }
 
 
-.login__button {
+.login_button {
     width: 60px;
     height: 60px;
     padding: 20px;
@@ -195,16 +195,16 @@ main{
     
 }
 
-.login__button:hover {
+.login_button:hover {
     transform: scale(1.1);
 }
 
 
-.login__button svg {
+.login_button svg {
     fill: white;
 }
 
-.login__button:disabled {
+.login_button:disabled {
     cursor: auto;
     background-color: white;
     border: 2px solid var(--light-grey);
@@ -212,7 +212,7 @@ main{
     transform: none;
 }
 
-.login__button:disabled svg {
+.login_button:disabled svg {
     fill: var(--grey);
 }
 

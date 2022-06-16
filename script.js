@@ -1,10 +1,10 @@
 const  inputs = document.querySelectorAll('.input');
-const button = document.querySelector('.login__button');
+const button = document.querySelector('.login_button');
 
 function handleChange() {
     const [username, password] = inputs;
   
-    if (username.value && password.value.length >= 8) {
+    if (username.value && password.value.length >= 12) {
       button.removeAttribute('disabled');     
     } else {
       button.setAttribute('disabled', '')
