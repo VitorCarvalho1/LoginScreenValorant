@@ -13,7 +13,7 @@ function alterarBotao() {
 inputs.forEach((input) => input.addEventListener('input', alterarBotao));
 
 
-let time = 5000,
+let time = 8000,
     imagemPrimaria = 0,
     imagens = document.querySelectorAll("#rotacao-slides img")
     max = imagens.length;
