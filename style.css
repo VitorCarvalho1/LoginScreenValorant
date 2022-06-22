@@ -232,20 +232,27 @@ main{
 }
 
 
-.image {
+#rotacao-slides {
     width: 100%;
-    background-image: url(./images/Valorant_2022_E4A3_PlayVALORANT_PlayValorantHomepage.jpg);
-    background-size: cover;
-    flex:1;
+    position: relative;
+}
+
+
+#rotacao-slides img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    flex: 1;
     background-position: center;
+    opacity: 0;
+}
+
+#rotacao-slides img.imgPrimaria {
+    opacity: 1;
 }
 
 
-.maintheme {
-    margin-top: 70px;
-    width: 300px;
-    height: 20px;
-    opacity: 0.5;
-}
+
 
 
