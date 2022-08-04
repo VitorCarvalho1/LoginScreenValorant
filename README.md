@@ -3,7 +3,7 @@
 
 <img src="./images/jett.png"/>
 <br>
-<img src="./images/Mobile.PNG">
+<img src="./images/Mobile.PNG" widht="450px" height="1000px">
 <br>
 <br>
 <p>Esse projeto foi desenvolvido com HTML, CSS e JAVASCRIPT.</p>
