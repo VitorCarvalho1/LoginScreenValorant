@@ -285,7 +285,20 @@
     #rotacao-slides {
         width: auto;
     }
+
 }
+
+@media (max-width: 1071px) {
+    #rotacao-slides {
+        background-color: #F2475A;
+    }
+
+    .imgPrimaria {
+        display: none;
+    }
+}
+
+
 
 
 
