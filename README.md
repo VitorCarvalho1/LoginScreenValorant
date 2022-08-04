@@ -1,8 +1,6 @@
 <h1>Login Screen Valorant</h1>
-<p>É uma interface de login para o jogo Valorant da Riot Games.</p>
 
 <img src="./images/jett.png"/>
-<br>
 <br>
 <br>
 <p>Esse projeto foi desenvolvido com HTML, CSS e JAVASCRIPT.</p>
