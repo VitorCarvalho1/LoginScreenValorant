@@ -8,7 +8,7 @@
      font-family: 'Poppins', sans-serif;
  }
 
-main{
+.container {
     display: flex;
 }
 
@@ -31,8 +31,8 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
+
 .login {
     display: flex;
     flex-direction: column;
@@ -249,11 +249,44 @@ main{
     background-position: center;
     opacity: 0;
     transition: all 1000ms ease;
+    
 }
 
 #rotacao-slides img.imgPrimaria {
     opacity: 1;
 }
+
+
+@media (max-width: 450px) {
+    .container {
+        display:flex;
+        justify-content: center;
+    }
+
+    .divisao {
+        width: auto;
+        overflow-x: hidden;
+    }
+
+    .input {
+        padding: 15px 10px 10px;
+        width: 250px;
+    }
+
+    .title-login {
+        font-size: 1.3rem;
+    }
+
+    .rotacao-slides, .imgPrimaria {
+        display: none;
+        width: 0;
+    }
+
+    #rotacao-slides {
+        width: auto;
+    }
+}
+
 
 
 
